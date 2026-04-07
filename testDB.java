@@ -8,7 +8,7 @@ public class testDB {
             Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/testdb",
                 "root",
-                "Anand@62018"
+                "password"
             );
 
             System.out.println("Connected Successfully ✅");
