@@ -11,7 +11,7 @@ public class commit {
             Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/testdb",
                 "root",
-                "Anand@62018"
+                "*********"
             );
 
             // First commit OFF
